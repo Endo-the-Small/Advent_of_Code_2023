@@ -8,7 +8,9 @@ def parseData(data):
     return dataset
 
 
-#replace words for numbers, from left to right
+# replace words for numbers, from left to right
+# this didn't work and was getting messy! so I started again with attempt 2
+# rather that replacing text I decided to try searching text in a different way
 def textToInt(dataToClean):
     cleanedCoordinates = []
     replacements = {'one':'1',

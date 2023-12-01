@@ -1,3 +1,7 @@
+#attempt 1 - it worked but when I got to the second challenge I realised 
+#I had everything in a single function and it was hard to modify so I
+#rebuilt it from scratch, for practice and to make it friendlier
+
 path = "day1\day1_input.txt"
 
 def parseData(dataToAnalyse):
