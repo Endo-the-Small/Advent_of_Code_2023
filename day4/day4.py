@@ -76,6 +76,7 @@ def addWaterfallWinnings(waterfallWinningsAnswer):
         runningTotal += number
     return runningTotal
 
+# this runs all the code
 
 path = 'day4\day4_input.txt'
 winningNumbers, playerNumbers = parsedata(path)
